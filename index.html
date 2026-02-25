@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Level Up | WCAG 2.2 Accessibility Experts</title>
+
+<!-- SEO Basics -->
+<meta name="description" content="Level Up helps businesses achieve WCAG 2.2 AA compliance, avoid lawsuits, and improve usability through expert accessibility audits and remediation.">
+<meta property="og:title" content="Level Up Accessibility Agency">
+<meta property="og:description" content="Free Accessibility Audit for your website. WCAG 2.2 AA experts.">
+<meta property="og:image" content="assets/images/og-image.png">
+
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<!-- WCAG 2.4.1 Bypass Blocks -->
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header role="banner">
+  <nav aria-label="Primary navigation">
+    <div class="nav-container">
+      <img src="assets/images/logo.svg" alt="Level Up Accessibility Agency Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Case Studies</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#audit" class="cta-nav">Free Audit</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <h1 id="hero-heading">WCAG 2.2 Accessibility Without the Guesswork</h1>
+    <p class="hero-sub">
+      We help SaaS, ecommerce, and SMB websites achieve WCAG 2.2 AA compliance —
+      reducing legal risk and increasing usability for every user.
+    </p>
+
+    <a href="#audit" class="btn-primary">Get Your Free Accessibility Audit</a>
+
+    <!-- Trust Signal -->
+    <p class="micro-trust">Manual + Automated Testing · Screen Reader Verified · Real Remediation Plans</p>
+  </div>
+</section>
+
+<!-- PROBLEM → SOLUTION -->
+<section class="problem-solution" aria-labelledby="problem-heading">
+  <div class="container">
+    <h2 id="problem-heading">Accessibility Lawsuits Are Rising. Most Sites Fail Basic WCAG.</h2>
+    <p>
+      96% of homepages have detectable WCAG failures. One overlooked contrast issue
+      or missing label can trigger legal exposure.
+    </p>
+
+    <h3>How Level Up Solves This</h3>
+    <ul>
+      <li>Manual screen reader testing (NVDA + VoiceOver)</li>
+      <li>Keyboard-only navigation audit</li>
+      <li>Color contrast AA/AAA verification</li>
+      <li>Developer-ready remediation documentation</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <h2 id="services-heading">Services</h2>
+
+    <article>
+      <h3>Full Accessibility Audit</h3>
+      <p>Comprehensive WCAG 2.2 AA evaluation with severity scoring and legal risk mapping.</p>
+    </article>
+
+    <article>
+      <h3>Remediation Support</h3>
+      <p>Code-level fixes for semantic HTML, ARIA misuse, contrast failures, focus traps, and forms.</p>
+    </article>
+
+    <article>
+      <h3>Ongoing Monitoring</h3>
+      <p>Quarterly accessibility reviews to prevent regression and protect against lawsuits.</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" aria-labelledby="portfolio-heading">
+  <div class="container">
+    <h2 id="portfolio-heading">Real Fixes. Real Results.</h2>
+
+    <article>
+      <h3>SaaS Dashboard – Focus Trap Fix</h3>
+      <p>
+        Fixed modal focus trap preventing keyboard exit (WCAG 2.1.2).
+        Added aria-modal and restored logical tab order.
+        Result: 100% keyboard operable.
+      </p>
+    </article>
+
+    <article>
+      <h3>Ecommerce Store – Contrast Remediation</h3>
+      <p>
+        Increased button contrast from 2.8:1 to 4.8:1 (AA compliant).
+        Updated color tokens system-wide.
+        Result: Passed Lighthouse 98 accessibility.
+      </p>
+    </article>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section aria-labelledby="testimonials-heading">
+  <div class="container">
+    <h2 id="testimonials-heading">Client Feedback</h2>
+
+    <blockquote>
+      "We thought we were compliant. Level Up found 43 issues our internal team missed —
+      including form label errors affecting screen reader users. Their remediation plan
+      saved our dev team weeks."
+      <cite>— Head of Product, B2B SaaS (50+ employees)</cite>
+    </blockquote>
+
+    <blockquote>
+      "After their audit, our Lighthouse accessibility score jumped from 72 to 99.
+      The clarity of their documentation was outstanding."
+      <cite>— Founder, Ecommerce Brand ($3M ARR)</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- LEAD CAPTURE -->
+<section id="audit" aria-labelledby="audit-heading">
+  <div class="container">
+    <h2 id="audit-heading">Request Your Free Accessibility Audit</h2>
+
+    <!-- WCAG 3.3.2 Labels or Instructions -->
+    <form id="audit-form" novalidate>
+      <div>
+        <label for="name">Full Name</label>
+        <input id="name" name="name" required>
+      </div>
+
+      <div>
+        <label for="email">Business Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+
+      <div>
+        <label for="website">Website URL</label>
+        <input id="website" name="website" type="url" required>
+      </div>
+
+      <button type="submit" class="btn-primary">Start Free Audit</button>
+
+      <p class="micro-trust">No spam. Detailed PDF report within 48 hours.</p>
+      <div id="form-message" role="alert" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <h2 id="faq-heading">FAQ</h2>
+
+    <h3>Is WCAG compliance legally required?</h3>
+    <p>ADA lawsuits frequently reference WCAG 2.1/2.2 as standard practice.</p>
+
+    <h3>How long does remediation take?</h3>
+    <p>Small sites: 2–3 weeks. SaaS apps: 4–6 weeks.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Level Up Accessibility Agency</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+          </html>
